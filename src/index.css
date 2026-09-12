@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Dark Forest Base Colors */
+  --color-bg: #0F1412;            /* Deep dark charcoal/green canvas */
+  --color-bg-alt: #131A17;        /* Lighter background for alternating sections */
+  --color-surface: #161C1A;       /* Card & container background */
+  --color-surface-hover: #1E2623; /* Interactive card hover state */
+
+  /* Text & Ink Tones */
+  --color-ink: #F0F7F4;           /* Primary text / Mint-Cream white */
+  --color-ink-dim: #C3D0C9;       /* Subtitle & body text */
+  --color-ink-faint: #92A39B;     /* Muted labels & placeholders */
+
+  /* Borders & Dividers */
+  --color-line: #222C28;          /* Soft, low-contrast borders */
+  --color-line-strong: #3D4A44;   /* Pronounced borders & input rings */
+
+  /* Accent Greens */
+  --color-emerald: #2D6A4F;       /* Primary Action Emerald Button */
+  --color-emerald-hover: #346E56; /* Hover state for primary buttons */
+  --color-emerald-dark: #1E4735;  /* Deeper green for active states/badges */
+  --color-emerald-tint: #182A22;  /* Soft green background tint for cards/badges */
+  --color-emerald-glow: #52B788;  /* Vibrant accent green for glows & highlights */
+
+  /* Complementary Accents */
+  --color-blue: #5B8EA6;
+  --color-gold: #D4A359;
+}
+
+:root {
+  --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  /* Soft green ambient glow originating from top-left and bottom-right */
+  background-image: 
+    radial-gradient(circle at 15% 20%, rgba(45, 106, 79, 0.22) 0%, transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(30, 71, 53, 0.18) 0%, transparent 50%);
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background-color: var(--color-emerald-glow);
+  color: #0F1412;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-emerald-glow);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-line-strong);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink-faint);
+}
+
+.container-edit {
+  width: 100%;
+  max-width: 1360px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container-edit {
+    padding-inline: 3rem;
+  }
+}
+
+@layer components {
+  /* Modern Dark Mode Inputs */
+  .input-base {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-line-strong);
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    color: var(--color-ink);
+    outline: none;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .input-base::placeholder {
+    color: var(--color-ink-faint);
+  }
+
+  .input-base:focus {
+    border-color: var(--color-emerald-glow);
+    box-shadow: 0 0 0 3px rgba(82, 183, 136, 0.15);
+  }
+
+  /* Primary Button Style matching emerald pill */
+  .btn-primary {
+    background-color: var(--color-emerald);
+    color: var(--color-ink);
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 20px -2px rgba(45, 106, 79, 0.4);
+  }
+
+  .btn-primary:hover {
+    background-color: var(--color-emerald-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 24px -2px rgba(82, 183, 136, 0.35);
+  }
+
+  /* Secondary Button Style */
+  .btn-secondary {
+    background-color: rgba(22, 28, 26, 0.6);
+    border: 1px solid var(--color-line-strong);
+    color: var(--color-ink);
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: 500;
+    backdrop-filter: blur(8px);
+    transition: all 0.2s ease;
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--color-surface-hover);
+    border-color: var(--color-ink-faint);
+    transform: translateY(-1px);
+  }
+}
+
+/* Smooth Entrance Reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s var(--ease-editorial), transform 0.7s var(--ease-editorial);
+}
+
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
