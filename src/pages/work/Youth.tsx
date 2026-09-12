@@ -14,7 +14,6 @@ import {
 
 import { Seo } from "../../components/Seo";
 import { SectionHeader } from "../../components/SectionHeader";
-import { Img } from "../../components/Image";
 import { Gallery } from "../../components/Gallery";
 import { CTASection } from "../../components/CTASection";
 import { galleryImages } from "../../data/gallery";
