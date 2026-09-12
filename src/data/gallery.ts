@@ -14,7 +14,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-2",
-    src: "public/images/gallery/uniforms-1.jpg",
+    src: "/images/gallery/uniforms-1.jpg",
     alt: "A pile of freshly tailored uniforms ready for distribution",
     title: "Ready to go",
     description: "Completed uniforms, checked and ready for the next distribution day.",
@@ -24,7 +24,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-2",
-    src: "public/images/gallery/uniforms-2.jpg",
+    src: "/images/gallery/uniforms-2.jpg",
     alt: "A pile of freshly tailored uniforms ready for distribution",
     title: "Ready to go",
     description: "Completed uniforms, checked and ready for the next distribution day.",
@@ -34,7 +34,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-2",
-    src: "public/images/gallery/uniforms-3.jpg",
+    src: "/images/gallery/uniforms-3.jpg",
     alt: "A pile of freshly tailored uniforms ready for distribution",
     title: "Ready to go",
     description: "Completed uniforms, checked and ready for the next distribution day.",
@@ -44,7 +44,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-2",
-    src: "public/images/gallery/uniforms-4.jpg",
+    src: "/images/gallery/uniforms-4.jpg",
     alt: "A pile of freshly tailored uniforms ready for distribution",
     title: "Ready to go",
     description: "Completed uniforms, checked and ready for the next distribution day.",
@@ -54,7 +54,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-2",
-    src: "public/images/gallery/uniforms-5.jpg",
+    src: "/images/gallery/uniforms-5.jpg",
     alt: "A pile of freshly tailored uniforms ready for distribution",
     title: "Ready to go",
     description: "Completed uniforms, checked and ready for the next distribution day.",
@@ -64,7 +64,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-2",
-    src: "public/images/gallery/uniform-4.jpg",
+    src: "/images/gallery/uniform-4.jpg",
     alt: "A pile of freshly tailored uniforms ready for distribution",
     title: "Ready to go",
     description: "Completed uniforms, checked and ready for the next distribution day.",
@@ -74,7 +74,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-2",
-    src: "public/images/gallery/uniforms-7.jpg",
+    src: "/images/gallery/uniforms-7.jpg",
     alt: "A pile of freshly tailored uniforms ready for distribution",
     title: "Ready to go",
     description: "Completed uniforms, checked and ready for the next distribution day.",
@@ -86,7 +86,7 @@ export const galleryImages: ImageAsset[] = [
   // — Community —
   {
     id: "gallery-3",
-    src: "public/images/gallery/community-drive.jpg",
+    src: "/images/gallery/community-drive.jpg",
     alt: "Volunteers sorting donated clothing during a community drive",
     title: "Community clothing drive",
     description: "Volunteers sorting donated clothing for distribution across Mathare.",
@@ -96,7 +96,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-4",
-    src: "public/images/gallery/community-2.jpg",
+    src: "/images/gallery/community-2.jpg",
     alt: "A community gathering in Mathare",
     title: "Community meeting",
     description: "Residents and volunteers meeting to plan an upcoming initiative.",
@@ -106,7 +106,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-4",
-    src: "public/images/gallery/community-3.jpg",
+    src: "/images/gallery/community-3.jpg",
     alt: "A community gathering in Mathare",
     title: "Community meeting",
     description: "Residents and volunteers meeting to plan an upcoming initiative.",
@@ -116,7 +116,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-4",
-    src: "public/images/gallery/community-7.jpg",
+    src: "/images/gallery/community-7.jpg",
     alt: "A community gathering in Mathare",
     title: "Community meeting",
     description: "Residents and volunteers meeting to plan an upcoming initiative.",
@@ -126,7 +126,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-4",
-    src: "public/images/gallery/community-initiatives.jpg",
+    src: "/images/gallery/community-initiatives.jpg",
     alt: "A community gathering in Mathare",
     title: "Community meeting",
     description: "Residents and volunteers meeting to plan an upcoming initiative.",
@@ -136,7 +136,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-4",
-    src: "public/images/gallery/community-4.jpg",
+    src: "/images/gallery/community-4.jpg",
     alt: "A community gathering in Mathare",
     title: "Community meeting",
     description: "Residents and volunteers meeting to plan an upcoming initiative.",
@@ -146,7 +146,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-4",
-    src: "public/images/gallery/community-5.jpg",
+    src: "/images/gallery/community-5.jpg",
     alt: "A community gathering in Mathare",
     title: "Community meeting",
     description: "Residents and volunteers meeting to plan an upcoming initiative.",
@@ -156,7 +156,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-4",
-    src: "public/images/gallery/community-6.jpg",
+    src: "/images/gallery/community-6.jpg",
     alt: "A community gathering in Mathare",
     title: "Community meeting",
     description: "Residents and volunteers meeting to plan an upcoming initiative.",
@@ -168,7 +168,7 @@ export const galleryImages: ImageAsset[] = [
   // — Schools —
   {
     id: "gallery-5",
-    src: "public/images/gallery/school-4.jpg",
+    src: "/images/gallery/school-4.jpg",
     alt: "Learners lined up outside a partner school",
     title: "Partner school",
     description: "Learners at one of the schools Ficha Uchi works alongside.",
@@ -178,7 +178,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-5",
-    src: "public/images/gallery/school-2.jpg",
+    src: "/images/gallery/school-2.jpg",
     alt: "Learners lined up outside a partner school",
     title: "Partner school",
     description: "Learners at one of the schools Ficha Uchi works alongside.",
@@ -188,7 +188,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-5",
-    src: "public/images/gallery/school-3.jpg",
+    src: "/images/gallery/school-3.jpg",
     alt: "Learners lined up outside a partner school",
     title: "Partner school",
     description: "Learners at one of the schools Ficha Uchi works alongside.",
@@ -198,7 +198,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-5",
-    src: "public/images/gallery/school-5.jpg",
+    src: "/images/gallery/school-5.jpg",
     alt: "Learners lined up outside a partner school",
     title: "Partner school",
     description: "Learners at one of the schools Ficha Uchi works alongside.",
@@ -208,7 +208,7 @@ export const galleryImages: ImageAsset[] = [
   },
 {
     id: "gallery-5",
-    src: "public/images/gallery/school-6.jpg",
+    src: "/images/gallery/school-6.jpg",
     alt: "Learners lined up outside a partner school",
     title: "Partner school",
     description: "Learners at one of the schools Ficha Uchi works alongside.",
@@ -218,7 +218,7 @@ export const galleryImages: ImageAsset[] = [
   },
 {
     id: "gallery-5",
-    src: "public/images/gallery/school-7.jpg",
+    src: "/images/gallery/school-7.jpg",
     alt: "Learners lined up outside a partner school",
     title: "Partner school",
     description: "Learners at one of the schools Ficha Uchi works alongside.",
@@ -228,7 +228,7 @@ export const galleryImages: ImageAsset[] = [
   },
 {
     id: "gallery-5",
-    src: "public/images/gallery/school-1.jpg",
+    src: "/images/gallery/school-1.jpg",
     alt: "Learners lined up outside a partner school",
     title: "Partner school",
     description: "Learners at one of the schools Ficha Uchi works alongside.",
@@ -238,7 +238,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-5",
-    src: "public/images/gallery/school-8.jpg",
+    src: "/images/gallery/school-8.jpg",
     alt: "Learners lined up outside a partner school",
     title: "Partner school",
     description: "Learners at one of the schools Ficha Uchi works alongside.",
@@ -251,7 +251,7 @@ export const galleryImages: ImageAsset[] = [
   // — Youth —
   {
     id: "gallery-6",
-    src: "public/images/gallery/youth-1.jpg",
+    src: "/images/gallery/youth-1.jpg",
     alt: "Young people at a Ficha Uchi youth Youth Participation",
     title: "Youth Participation",
     description: "",
@@ -261,7 +261,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-6",
-    src: "public/images/gallery/youth-2.jpg",
+    src: "/images/gallery/youth-2.jpg",
     alt: "Young people at a Ficha Uchi youth Youth Participation",
     title: "Youth Participation",
     description: "",
@@ -271,7 +271,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-6",
-    src: "public/images/gallery/youth-3.jpg",
+    src: "/images/gallery/youth-3.jpg",
     alt: "Young people at a Ficha Uchi youth Youth Participation",
     title: "Youth Participation",
     description: "",
@@ -281,7 +281,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-6",
-    src: "public/images/gallery/youth-4.jpg",
+    src: "/images/gallery/youth-4.jpg",
     alt: "Young people at a Ficha Uchi youth Youth Participation",
     title: "Youth Participation",
     description: "",
@@ -291,7 +291,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-6",
-    src: "public/images/gallery/youth-5.jpg",
+    src: "/images/gallery/youth-5.jpg",
     alt: "Young people at a Ficha Uchi youth Youth Participation",
     title: "Youth Participation",
     description: "",
@@ -301,7 +301,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-6",
-    src: "public/images/gallery/youth-7.jpg",
+    src: "/images/gallery/youth-7.jpg",
     alt: "Young people at a Ficha Uchi youth Youth Participation",
     title: "Youth Participation",
     description: "",
@@ -311,7 +311,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-6",
-    src: "public/images/gallery/youth-9.jpg",
+    src: "/images/gallery/youth-9.jpg",
     alt: "Young people at a Ficha Uchi youth Youth Participation",
     title: "Youth Participation",
     description: "",
@@ -321,7 +321,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-6",
-    src: "public/images/gallery/youth-8.jpg",
+    src: "/images/gallery/youth-8.jpg",
     alt: "Young people at a Ficha Uchi youth Youth Participation",
     title: "Youth Participation",
     description: "",
@@ -415,7 +415,7 @@ export const galleryImages: ImageAsset[] = [
   // — Volunteers —
   {
     id: "gallery-8",
-    src: "public/images/gallery/volunteer-1.jpg",
+    src: "/images/gallery/volunteer-1.jpg",
     alt: "Volunteers helping at a Ficha Uchi event",
     title: "Volunteer team",
     description: "Volunteers who gave their time to help run the day's activities.",
@@ -425,7 +425,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-8",
-    src: "public/images/gallery/volunteer-2.jpg",
+    src: "/images/gallery/volunteer-2.jpg",
     alt: "Volunteers helping at a Ficha Uchi event",
     title: "Volunteer team",
     description: "Volunteers who gave their time to help run the day's activities.",
@@ -435,7 +435,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-8",
-    src: "public/images/gallery/volunteer-3.jpg",
+    src: "/images/gallery/volunteer-3.jpg",
     alt: "Volunteers helping at a Ficha Uchi event",
     title: "Volunteer team",
     description: "Volunteers who gave their time to help run the day's activities.",
@@ -445,7 +445,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-8",
-    src: "public/images/gallery/volunteer-4.jpg",
+    src: "/images/gallery/volunteer-4.jpg",
     alt: "Volunteers helping at a Ficha Uchi event",
     title: "Volunteer team",
     description: "Volunteers who gave their time to help run the day's activities.",
@@ -455,7 +455,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-8",
-    src: "public/images/gallery/volunteer-5.jpg",
+    src: "/images/gallery/volunteer-5.jpg",
     alt: "Volunteers helping at a Ficha Uchi event",
     title: "Volunteer team",
     description: "Volunteers who gave their time to help run the day's activities.",
@@ -465,7 +465,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-8",
-    src: "public/images/gallery/volunteer-6.jpg",
+    src: "/images/gallery/volunteer-6.jpg",
     alt: "Volunteers helping at a Ficha Uchi event",
     title: "Volunteer team",
     description: "Volunteers who gave their time to help run the day's activities.",
@@ -475,7 +475,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-8",
-    src: "public/images/gallery/volunteer-7.jpg",
+    src: "/images/gallery/volunteer-7.jpg",
     alt: "Volunteers helping at a Ficha Uchi event",
     title: "Volunteer team",
     description: "Volunteers who gave their time to help run the day's activities.",
@@ -485,7 +485,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-8",
-    src: "public/images/gallery/volunteer-8.jpg",
+    src: "/images/gallery/volunteer-8.jpg",
     alt: "Volunteers helping at a Ficha Uchi event",
     title: "Volunteer team",
     description: "Volunteers who gave their time to help run the day's activities.",
