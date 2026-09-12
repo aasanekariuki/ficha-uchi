@@ -333,7 +333,7 @@ export const galleryImages: ImageAsset[] = [
   // — Events —
   {
     id: "gallery-7",
-    src: "/public/images/gallery/event-1.jpg",
+    src: "/images/gallery/event-1.jpg",
     alt: "A Ficha Uchi uniform distribution day event",
     title: "Distribution day",
     description: "Families and learners gathered for a uniform distribution event.",
@@ -343,7 +343,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-7",
-    src: "/public/images/gallery/event-2.jpg",
+    src: "/images/gallery/event-2.jpg",
     alt: "A Ficha Uchi uniform distribution day event",
     title: "Distribution day",
     description: "Families and learners gathered for a uniform distribution event.",
@@ -353,7 +353,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-7",
-    src: "/public/images/gallery/event-3.jpg",
+    src: "/images/gallery/event-3.jpg",
     alt: "A Ficha Uchi uniform distribution day event",
     title: "Distribution day",
     description: "Families and learners gathered for a uniform distribution event.",
@@ -363,7 +363,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-7",
-    src: "/public/images/gallery/event-4.jpg",
+    src: "/images/gallery/event-4.jpg",
     alt: "A Ficha Uchi uniform distribution day event",
     title: "Distribution day",
     description: "Families and learners gathered for a uniform distribution event.",
@@ -373,7 +373,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-7",
-    src: "/public/images/gallery/event-5.jpg",
+    src: "/images/gallery/event-5.jpg",
     alt: "A Ficha Uchi uniform distribution day event",
     title: "Distribution day",
     description: "Families and learners gathered for a uniform distribution event.",
@@ -383,7 +383,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-7",
-    src: "/public/images/gallery/event-6.jpg",
+    src: "/images/gallery/event-6.jpg",
     alt: "A Ficha Uchi uniform distribution day event",
     title: "Distribution day",
     description: "Families and learners gathered for a uniform distribution event.",
@@ -393,7 +393,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-7",
-    src: "/public/images/gallery/event-7.jpg",
+    src: "/images/gallery/event-7.jpg",
     alt: "A Ficha Uchi uniform distribution day event",
     title: "Distribution day",
     description: "Families and learners gathered for a uniform distribution event.",
@@ -403,7 +403,7 @@ export const galleryImages: ImageAsset[] = [
   },
   {
     id: "gallery-7",
-    src: "/public/images/gallery/event-8.jpg",
+    src: "/images/gallery/event-8.jpg",
     alt: "A Ficha Uchi uniform distribution day event",
     title: "Distribution day",
     description: "Families and learners gathered for a uniform distribution event.",
