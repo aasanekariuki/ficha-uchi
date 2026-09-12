@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#B98A3D" />
+  <rect x="0" y="0" width="85.71428571428571" height="900" fill="#0C0B09" opacity="0.05" /><rect x="171.42857142857142" y="0" width="85.71428571428571" height="900" fill="#0C0B09" opacity="0.05" /><rect x="342.85714285714283" y="0" width="85.71428571428571" height="900" fill="#0C0B09" opacity="0.05" /><rect x="514.2857142857142" y="0" width="85.71428571428571" height="900" fill="#0C0B09" opacity="0.05" /><rect x="685.7142857142857" y="0" width="85.71428571428571" height="900" fill="#0C0B09" opacity="0.05" /><rect x="857.1428571428571" y="0" width="85.71428571428571" height="900" fill="#0C0B09" opacity="0.05" /><rect x="1028.5714285714284" y="0" width="85.71428571428571" height="900" fill="#0C0B09" opacity="0.05" />
+  
+  <rect x="0" y="894" width="1200" height="6" fill="#211D19" />
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text x="60" y="800" font-size="67" fill="#0C0B09" opacity="0.92">Tailor Fund</text>
+    <text x="60" y="840" font-size="29" fill="#0C0B09" opacity="0.55" font-family="Arial, sans-serif" letter-spacing="1">PLACEHOLDER — campaign cover</text>
+  </g>
+</svg>
